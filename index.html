@@ -1,0 +1,43 @@
+<!--Macaluso Alessandro 4^C INF.-->
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubrica Telefonica</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome">
+
+    <label for="cognome">Cognome</label>
+    <input type="text" name="cognome" id="cognome">
+
+    <label for="numero">Numero di telefono</label>
+    <input type="text" name="numero" id="numero">
+
+    <br><br><br>
+
+    <button onclick="inserireContatto()">Inserire nella rubrica</button>
+    <button onclick="cancellaContatto()">Cancella dalla rubrica</button>
+    <button onclick="modificaContatto()">Modifica</button>
+    <button onclick="visualizzaContatti()">Visualizza contatti</button>
+
+    <br>
+
+    <div id="display">
+        <ol id="lista">
+
+        </ol>
+    </div>
+
+    <br><br><br>
+
+
+</body>
+
+</html>
