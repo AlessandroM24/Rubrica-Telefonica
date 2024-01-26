@@ -1,4 +1,5 @@
 // Macaluso Alessandro 4^C INF.
+//PROVA
 
 class Contatto {
     constructor(nome, cognome, numero) {
